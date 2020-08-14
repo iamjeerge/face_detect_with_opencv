@@ -26,6 +26,15 @@ Output of program will be output.mp4 in same folder
 
 ### Production
 
+We do not read image showing by python in production 
+removing 
+
+```
+cv2.imshow('frame', frame)
+```
+
+Final Code should look like 
+
 ```
 
 #!/usr/bin/env python
