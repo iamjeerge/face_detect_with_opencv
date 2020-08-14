@@ -26,8 +26,7 @@ Output of program will be output.mp4 in same folder
 
 ### Production
 
-We do not read image showing by python in production 
-removing 
+We do not read image showing by python in production environment so remove
 
 ```
 cv2.imshow('frame', frame)
